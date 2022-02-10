@@ -127,6 +127,17 @@ h1{
   padding: 0 0 0 15px;
 }
 
+img{
+  background-color: white;
+  max-width: 70%;
+  border-radius: 50%;
+  border: solid 2px rgb(33, 192, 33);
+  grid-area: img;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
 p{
   margin: 0;
 }
@@ -174,15 +185,6 @@ padding: 0 0 0 15px;
 border-left:solid rgb(33, 192, 33);
 }
 
-#offer{
-  grid-area: offer;
-  padding: 5px 0 0 15px;
-  margin: 0;
-  align-items: center;
-  justify-content: center;
-  line-height: 10px;
-}
-
 #contact{
   background-color: green;
   grid-area: contact;
@@ -192,17 +194,6 @@ border-left:solid rgb(33, 192, 33);
   align-items: center;
 }
 
-img{
-  background-color: white;
-  max-width: 70%;
-  border-radius: 50%;
-  border: solid 2px rgb(33, 192, 33);
-  grid-area: img;
-  justify-content: center;
-  align-items: center;
-  margin: auto auto;
-}
-
 #contact > p {
   text-align: center;
 }
@@ -210,5 +201,14 @@ img{
 #cell-phone {
   padding: 8px 0;
   background-color: lightgreen;
+}
+
+#offer{
+  grid-area: offer;
+  padding: 5px 0 0 15px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  line-height: 10px;
 }
 }
